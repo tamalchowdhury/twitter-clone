@@ -1,0 +1,9 @@
+extends layout
+include mixins/_newTweet
+block content
+	+newTweet()
+	each tweet in tweets 
+		.single_tweet
+			p= tweet.tweet
+			small
+				a(href=`/tweet/${tweet._id}` title=`${tweet.date}`)= moment(tweet.date).fromNow()

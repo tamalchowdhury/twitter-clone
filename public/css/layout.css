@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 18px;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #333333;
+	background-color: #dddddd;
+	line-height: 1.6em;
+}
+
+a {
+	color: #26a67e;
+	text-decoration: none;
+}
+
+
+.container {
+	width: 600px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #88cc88;
+	text-align: center;
+	padding: 1rem;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.site_title {
+	margin: 0;
+	font-size: 2rem;
+}
+
+.site_title a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.content {
+	background-color: #ffffff;
+	padding: 1rem;
+}
+
+/* Content area  */
+.tweet_form,
+.single_tweet {
+	padding: 1rem;
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+	margin: 0.5rem;
+}
+
+.single_tweet p {
+	font-weight: bold;
+}
+
+.single_tweet_display {
+	padding: 1rem;
+}
+
+.single_tweet_display p {
+	font-size: 2rem;
+	line-height: 1.2em;
+	margin: 0;
+}
+
+.tweet_box {
+	width: 100%;
+	padding: 0.5rem;
+}
+
+.tweet_button {
+	float: right;
+	display: block;
+}
+
+
+/* Footer area  */
+.footer {
+	background-color: #efefef;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+.footer p {
+	font-size: 0.9rem;
+	margin: 0;
+
+}

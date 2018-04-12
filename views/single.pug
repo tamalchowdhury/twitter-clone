@@ -1,0 +1,5 @@
+extends layout
+block content 
+	.single_tweet_display
+		p= tweet.tweet
+		small Posted #{moment(tweet.date).fromNow()}
